@@ -9,19 +9,26 @@
         background-image: url('../tela_inicial/background.png');
     }
 } */
+@font-face {
+    font-family:'Poppins Bold';
+    src: url('../../assets/font/Poppins/Poppins-Bold.ttf');
+  }
 
+  @font-face {
+    font-family:'Poppins Regular';
+    src: url('../../assets/font/Poppins/Poppins-Regular.ttf');
+  }
 
 .btVideo{
     background: url('../../assets/img/Video_apresentacao_pq_layout.png') no-repeat;
     width: 236px;
     height: 226px;
     position: absolute;
-    bottom: 5%;
-    left: 70%;
     border: none;
     background-size: 90%;
     display: block;
-    margin: 10px auto;
+    margin-left: 35px;
+    margin-top: 40px;
     transition: all 0.2s;
 }
 .btVideo:hover {
@@ -47,49 +54,51 @@
     clear: both;
 }
 
+.imgCentro{margin-top: 8%;
+position: absolute;
+left: 23%;}
 
-#bt_ini:hover{
-    transform: scale(1.1);
+.imgTitulo{
+    position: absolute;
+    left:17%;
+    top:22%;
 }
 
+#btIniciar{  
+    position: absolute;
+    left:20%;
+    top:69%;}
 
-#tituloarea{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    max-width: 200px;
+#btIniciar:hover{
+ transform: scale(1.1);
 }
-#bg_centro{
+
+.imgBandeira{
     position: absolute;
-    width: 103%;
-    left: -19px;
-    bottom: 0;
+    left:47%;
+    top:6%;
 }
-#bg_inferior{
+
+.imgPersonagem1{
     position: absolute;
-    bottom: 0;
+    left:65%;
+    top:49%;
 }
-#bt_ini{
+
+.imgPersonagem2{
     position: absolute;
-    bottom: 5%;
-    left: 50%;
+    left:76%;
+    top:37%;
 }
-#garota{
+
+.titulo{
+    color:#fff;
+    font-family:'Poppins Regular';
+    left:76%;
+    top:90%;
     position: absolute;
-    bottom: 5%;
-    left: 5%;
-    width: 32%;
 }
-#tituloNuvem{
-    width: 50%;
-    position: absolute;
-    right: 5%;
-}
-#nuvensPensamento{
-    position: absolute;
-    left: 30%;
-    top: 30%;
-}
+
 #videoplay{
     width: 200px;
     position: absolute;
@@ -98,18 +107,18 @@
 }
 #logo{
     position: absolute;
-    right: 10px;
+    right: 45px;
+    margin-top:40px;
     width: 100px;
 }
 #wrapper {
     height: 100vh;
     width: 100vw;
-    background-image: url('../tela_inicial/bg_fundo.svg');
+    background-image: url('../../conteudo/assets/img/background_tela_inicial.png');
     background-position: center;
     background-size: cover;
     position: relative;
     overflow-x: hidden;
-    animation: BackgroundAnim 9s infinite;
 }
 .menu {
     position: absolute;
@@ -124,30 +133,7 @@
     display: block;
     background-position: center;
 }
-#link-1 {
-    background-image: url('../../tela_inicial/bt_1.png');
-}
-#link-2 {
-    background-image: url('../tela_inicial/bt_2.png');
-}
-#link-3 {
-    background-image: url('../tela_inicial/bt_3.png');
-}
-#link-4 {
-    background-image: url('../tela_inicial/bt_4.png');
-}
-#link-1:hover {
-    background-image: url('../tela_inicial/bt_1_hover.png');
-}
-#link-2:hover {
-    background-image: url('../tela_inicial/bt_2_hover.png');
-}
-#link-3:hover {
-    background-image: url('../tela_inicial/bt_3_hover.png');
-}
-#link-4:hover {
-    background-image: url('../tela_inicial/bt_4_hover.png');
-}
+
 
 /* Modal vídeo */
 .backdrop {
@@ -219,36 +205,6 @@
 }
 
 
-#nuvemTitMobile{
-    width: 100%;
-    margin-top: 100px;
-    margin-left: 15px;
-}
-
-#garotaMobile{
-    position: absolute;
-    width: 70%;
-    margin-top: 80px;
-    z-index: 4;
-}
-#bg_inferiorMobile{
-    position: absolute;
-    bottom: 0;
-    width: 180%;
-    z-index: 3;
-}
-#nuvemPensamentoMobile{
-    position: absolute;
-    width: 30%;
-    margin-left: 120px;
-}
-
-#btIniciarMobile{
-position: absolute;
-width: 40%;
-margin-left: 60%;
-margin-top: 20%;
-}
 
 #logoMobile{
     position: absolute;
@@ -325,34 +281,17 @@ margin-top: 20%;
 }
 
 @media screen and (max-width:780px){
-#nuvensPensamento{width: 15%;
-margin-top: 31px;
-left: 35%;}
-#garota{width: 50% !important; }
-#tituloNuvem{margin-top: 30px;}
-#bt_ini{top:45%;
-margin-left: 40px;}
+
 .btVideo {width: 25%;
 margin-left: -55px;}
 }
 
 @media screen and (max-width:416px){
-    #garotaMobile{width: 60% !important;
-    margin-left: 10px !important;
-    margin-top: 65px !important;
-    position:fixed !important;}
-    #bg_inferiorMobile{
-        bottom: 0;
-        position: fixed;
-    } 
-    #nuvemTitMobile{margin-top: 60px;}
+
     .btVideo{margin-top: 28px;
     position: fixed;}
 }
 
 @media screen and (max-width:376px){
-    #garotaMobile{margin-top: 155px !important;
-    width: 70% !important;}
-    #nuvemPensamentoMobile{margin-top: 28px !important;}
-    #btIniciarMobile{margin-top: 130px;}
+
 }
