@@ -256,7 +256,7 @@ footer.container {
   color: #ff9200;
   border-style:solid;
   border-width: 2px;
-  width:14%;
+  width:17%;
   border-radius: 10px;
   z-index: 5;
   background-color: #fff;
@@ -1089,7 +1089,36 @@ margin-left: -125px;}
 }
 }
 
+@media screen and (min-width:1400px) and (max-width: 2398px) {
+.imgPainel {
+  position: relatve;
+  z-index: 4;
+  margin-top: 37%;
+  width: 90%;
+}
+.etapaX {
+  position: absolute;
+  margin-top: 506px;}
 
+.etapaY {
+  position: absolute;
+  margin-top: 19%; }
+
+.etapaZ {
+  position: absolute;
+  margin-top: 36%;
+  margin-left: 6%;}
+
+.mt2 {
+  margin-top: 37px;}
+  
+.mt3 {
+  margin-top: 15%;
+  margin-left: 3%;
+}
+
+
+}
 
 
 @media screen and (min-width:2400px) {
