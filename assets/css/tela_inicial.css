@@ -212,18 +212,14 @@ left: 23%;}
 
 
 @media (max-width: 900px) {
-    .menu {
-        width: 100%;
-        display: grid;
-    }
-    .menu a {
-        width: 382px;
-        height: 200px;
-    }
-   
-    /* .menu{
-        bottom: 210px;
-    } */
+.menu {
+    width: 100%;
+    display: grid;
+}
+.menu a {
+    width: 382px;
+    height: 200px;
+}
 }
 
 @media (max-width: 500px) {
