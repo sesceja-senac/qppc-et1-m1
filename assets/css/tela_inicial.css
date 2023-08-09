@@ -204,8 +204,6 @@ left: 23%;}
     margin-left: 22px;    
 }
 
-
-
 #logoMobile{
     position: absolute;
     right: 10px;
@@ -229,32 +227,27 @@ left: 23%;}
 }
 
 @media (max-width: 500px) {
-    .modal-video {
-        width: 95%;
-        margin: 5px;
-        background-image: unset;
-        background-color: #007981;
-        height: auto;
-        padding: 15px;
-    }
-    .ytb {
-        height: 200px;
-        width: 300px;
-    }
-    .btn-video {
-        top: 830px;
-        background-image: unset;
-        background-color: #007981;
-        height: auto;
-        padding: 15px 25px;
-        box-shadow: 3px 3px 6px #333;
-        border-radius: 5px;
-        text-align: center;
-    }
-    .img-play {
-        display: none;
-    }
+.modal-video {
+    width: 95%;
+    margin: 5px;
+    background-image: unset;
+    background-color: #007981;
+    height: auto;
+    padding: 15px;
 }
+
+.btn-video {
+    top: 830px;
+    background-image: unset;
+    background-color: #007981;
+    height: auto;
+    padding: 15px 25px;
+    box-shadow: 3px 3px 6px #333;
+    border-radius: 5px;
+    text-align: center;
+}
+}
+
 
 @media screen and (max-width:480px){
 .imgBandeira {
@@ -276,12 +269,8 @@ left: 23%;}
     left: 27% !important;
     top: 86% !important;
 }
-
-
-
-
-
 }
+
 @media screen and (min-width:400px) and (max-width: 415px) {
 .imgTitulo {
     top: 49% !important;}
@@ -362,9 +351,7 @@ width: 35%;}
     top: 1%;
     width: 8%;
 }
-
 }
-
 
 
 @media screen and (min-width:2400px) {
@@ -375,6 +362,7 @@ width: 35%;}
     left: 63%;
     top: 32%;}
 }
+
 
 @media screen and (min-width:1400px) and (max-width: 2398px) {
 #btIniciar {
@@ -406,6 +394,4 @@ width: 35%;}
     left: 68%;
     top: 43%;
 }
-
-
 }
