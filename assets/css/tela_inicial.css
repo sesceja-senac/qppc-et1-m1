@@ -257,15 +257,36 @@ left: 23%;}
 }
 
 @media screen and (max-width:480px){
-    .desktop1{display: none;}
-    .btVideo {width: 30% !important;
-    bottom: unset;
-    top:70% !important;
-    margin-left: unset !important;}
+.imgBandeira {
+    left: 39%;
+    top: 13% !important;
+    width: 8%;
 }
-@media screen and (min-width:483px){
-    .mobile1{display: none;}
+.imgCentro {
+    margin-top: 42% !important;}
+
+.imgTitulo {
+    left: 33% !important;}
+
+#btIniciar {
+    left: 28% !important;
+    top: 71% !important;
 }
+.titulo {
+    left: 27% !important;
+    top: 86% !important;
+}
+
+
+
+
+
+}
+@media screen and (min-width:400px) and (max-width: 415px) {
+.imgTitulo {
+    top: 49% !important;}
+}
+
 
 @media screen and (max-width:1030px){
 .modal-dialog .modal-content{
@@ -277,21 +298,120 @@ left: 23%;}
     background: #007981;
 }
 .btVideo {margin-left: 40px;}
-#garota{width: 35%;}
+.imgCentro {
+    margin-top: 14%;
+    left: 7%;
+    width: 80%;
 }
+.imgTitulo {
+    width: 25%;
+    left: 3%;
+    top: 30%;
+}
+#btIniciar {
+    left: 6%;
+    top: 70%;
+}
+.imgBandeira {
+    width: 5%;
+    left: 41%;
+    top: 7%;
+}
+.imgPersonagem1 {
+    width: 12%;
+    left: 67%;
+    top: 43%;}
+.imgPersonagem2 {
+    left: 80%;
+    top: 32%;
+    width: 12%;}
+
+.titulo{left: 67%;}
+.btVideo {width: 15%;}
+}
+
+
+
+
 
 @media screen and (max-width:780px){
 
 .btVideo {width: 25%;
-margin-left: -55px;}
+margin-left: 9px;}
+.titulo{
+    left: 33%;
+    top: 92%;
 }
 
-@media screen and (max-width:416px){
+.imgPersonagem1 {display: none;}
+.imgPersonagem2 {display: none;}
+#btIniciar {
+    left: 36%;
+    top: 81%;
+}
+.imgTitulo {
+    left: 32%;
+    top: 45%;
+width: 35%;}
 
-    .btVideo{margin-top: 28px;
-    position: fixed;}
+.imgCentro {
+    margin-top: 17%;
+    left: 0%;
+    width: 95%;
 }
 
-@media screen and (max-width:376px){
+.imgBandeira {
+    left: 39%;
+    top: 1%;
+    width: 8%;
+}
+
+
+}
+
+
+
+
+
+@media screen and (min-width:2400px) {
+.imgPersonagem1 {
+    left: 55%;
+    top: 42%;}
+.imgPersonagem2 {
+    left: 63%;
+    top: 32%;}
+}
+
+@media screen and (min-width:1400px) and (max-width: 2398px) {
+#btIniciar {
+    top: 68%;
+    left: 13%;
+}
+.imgTitulo {
+    left: 9%;
+    width: 23%;
+}
+.imgBandeira {
+    left: 45%;
+    top: 0%;
+}
+.imgCentro {
+    left: 16%;
+    width: 70%;
+}
+.imgPersonagem2 {
+    left: 81%;
+    top: 29%;
+}
+.titulo{
+    left: 80%;
+    top: 90%;
+
+}
+.imgPersonagem1 {
+    left: 68%;
+    top: 43%;
+}
+
 
 }
