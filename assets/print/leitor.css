@@ -448,6 +448,7 @@
   }
   #booklet h1{padding-top: unset;}
 
+
 /* Estilos de acordo com o template + ou - */
 .img-fluid{
   max-width: 100%;
@@ -476,7 +477,11 @@
 .pagina .accordion h2{
   font-size: 1.1rem;
 }
-
+.sublinhado{
+  text-decoration: none;
+  border-bottom: 1px dashed #000;
+  padding-bottom: 2px; 
+}
 /**,
 *:before,
 *:after,
