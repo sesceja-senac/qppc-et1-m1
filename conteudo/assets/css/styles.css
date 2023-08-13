@@ -210,10 +210,10 @@ padding-left: 100px;
 .bloco3{
   background: url('../../../conteudo/assets/img/elemento_canto_1.png') no-repeat left top, 
   url('../../../conteudo/assets/img/elemento_canto_2.png') no-repeat right center,
-  url('../../../conteudo/assets/img/elemento_canto_3.png') no-repeat left bottom,
-  url('../../../conteudo/assets/img/background.png') no-repeat;
-  background-size: 10%, 10%, 10%, auto;
-  background-attachment: scroll,scroll,scroll, fixed;
+  url('../../../conteudo/assets/img/elemento_canto_3.png') no-repeat left bottom;
+ 
+  background-size: 10%, 10%, 10%;
+  background-attachment: scroll,scroll,scroll;
 }
 
 .bloco4{
@@ -221,6 +221,11 @@ padding-left: 100px;
   background-size: 10%, auto;
   background-attachment:scroll, fixed;
 }
+.pagina3{
+  background: url('../../../conteudo/assets/img/background.png') no-repeat;
+background-attachment: fixed;
+}
+
 
 .pagina4{
   background:url('../../../conteudo/assets/img/lateral_direita2.png') no-repeat right top, url('../../../conteudo/assets/img/lateral_esquerda2.png') no-repeat left top, url('../../../conteudo/assets/img/centro.png') no-repeat center top, url('../../../conteudo/assets/img/elemento_esquerdo2.png') no-repeat left center, url('../../../conteudo/assets/img/elemento_direito2.png') no-repeat right bottom, url('../../../conteudo/assets/img/background.png') no-repeat;
@@ -860,21 +865,72 @@ figcaption {
 
 
 
-@media (max-width: 1080px) {
-  video {
-    max-width: 100%;
+
+
+
+
+
+
+
+
+@media screen and (max-width: 428px) {
+  .pensamento{
+  margin-left: -50px;
+  width: 100%;}
+
+  /*.desktop1{display: none;}*/
+  .desktop3{display: none;}
+  .desktop4{display: none;}
+
+  .icone.pergunta::before {
+    left:-55px;
   }
-  .cards-container img {
-    width: 320px;
+  .icone.saiba-mais::before {
+    left:-55px;
+  }
+  .icone.praticar::before {
+    left:-55px;
+  }
+  .icone.importante::before {
+    left:-55px;
+  }
+  .icone.para-refletir::before {
+    left:-50px;
   }
 
-  figure .img-fluid {
-    max-width: 600px;
+  .caixa.icone {padding-left: 65px;}
+  .caixa.icone.praticar {padding-left:15px;
+    padding-top: 100px;
   }
 
+  .caixa.icone.praticar.espaco {padding-left:60px;
+    padding-top: 70px;
+  }
+  .paragImportante2.caixa.icone {
+    padding-left: 82px;
+ }
+  .icone2::before{
+  background: unset;
+ }
+  .caixa2.icone2 p {
+  padding-left: unset;
+ }
+
+  .caixa2.icone2 ol {
+  padding-left: unset;
+ }
+ .marTop3 {
+  padding-top: 124px;
+}
 }
 
 
+
+@media screen and (min-width: 430px) {
+/*.mobile1{display: none;}*/
+.mobile3{display: none;}
+.mobile4{display: none;}
+}
 
 @media (max-width: 720px) {
   .cards-container {
@@ -929,66 +985,20 @@ figcaption {
 }
 
 
-
-@media screen and (max-width: 428px) {
-  .pensamento{
-  margin-left: -50px;
-  width: 100%;}
-
-  /*.desktop1{display: none;}*/
-  .desktop3{display: none;}
-  .desktop4{display: none;}
-
-  .icone.pergunta::before {
-    left:-55px;
-  }
-  .icone.saiba-mais::before {
-    left:-55px;
-  }
-  .icone.praticar::before {
-    left:-55px;
-  }
-  .icone.importante::before {
-    left:-55px;
-  }
-  .icone.para-refletir::before {
-    left:-50px;
-  }
-
-  .caixa.icone {padding-left: 65px;}
-  .caixa.icone.praticar {padding-left:15px;
-    padding-top: 100px;
-  }
-
-  .caixa.icone.praticar.espaco {padding-left:60px;
-    padding-top: 70px;
-  }
-  .paragImportante2.caixa.icone {
-    padding-left: 82px;
- }
-  .icone2::before{
-  background: unset;
- }
-  .caixa2.icone2 p {
-  padding-left: unset;
- }
-
-  .caixa2.icone2 ol {
-  padding-left: unset;
- }
- .marTop3 {
-  padding-top: 124px;
+@media screen and (max-width: 600px) {
+  .podcast-container {
+    transform: scale(1);
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
 }
-
-
+.texto-podcast {
+  width: 100%;
+  margin-bottom: 0px;
 }
-
-
-
-@media screen and (min-width: 430px) {
-/*.mobile1{display: none;}*/
-.mobile3{display: none;}
-.mobile4{display: none;}
 }
 
 
@@ -1022,20 +1032,16 @@ figcaption {
 .paragImportante2.caixa.icone {
   padding-left: 82px;
 }
-.podcast-container{
-  transform: scale(0.9) !important;
-}
-
-.btn1{margin-top: 2%;
-  margin-left: -297px;}
-.btn2{margin-top: 9%;
-  margin-left: -258px;}
+.btn1{margin-top: 27%;
+  margin-left: -125px;}
+.btn2{margin-top: 21%;
+  margin-left: -173px;}
 .btn3{margin-top: 15%;
   margin-left: -213px;}
-.btn4{margin-top: 21%;
-  margin-left: -173px;}
-.btn5{margin-top: 27%;
-margin-left: -125px;}
+.btn4{margin-top: 9%;
+  margin-left: -258px;}
+.btn5{margin-top: 2%;
+margin-left: -297px;}
 .imgPainel2{width: 60%;}
 .painel3{
   margin-top: 56% !important;
@@ -1047,10 +1053,6 @@ margin-left: -125px;}
 .icone.forum::before {
   left:-60px;
 }
-}
-
-
-@media (max-width:820px) {
 .podcast-container{
     transform: scale(0.9);
     margin-left: -40px;
@@ -1058,22 +1060,21 @@ margin-left: -125px;}
 }
 
 
-@media screen and (max-width: 600px) {
-  .podcast-container {
-    transform: scale(1);
-    margin-left: 0px;
-    margin-top: 50px;
-    width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center top;
-}
-.texto-podcast {
-  width: 100%;
-  margin-bottom: 0px;
-}
-}
 
+
+@media (max-width: 1080px) {
+  video {
+    max-width: 100%;
+  }
+  .cards-container img {
+    width: 320px;
+  }
+
+  figure .img-fluid {
+    max-width: 600px;
+  }
+
+}
 
 
 @media screen and (min-width:2400px) {
@@ -1094,56 +1095,38 @@ margin-top: -5px;}
 }
 
 
-@media screen and (min-width:1020px) and (max-width:1300px) {
-  .caixaInfografico2{width: 26%;} 
-  .caixaInfografico{width: 25%;} 
-  .etapaY{margin-top: 19%;}
+@media screen and (min-width:1020px) and (max-width:1399px) {
+  .caixaInfografico2{width: 22%;} 
+  .caixaInfografico{width: 23%;} 
+  .etapaY{margin-top: 14%;}
   .etapaZ{
-    margin-top: 46%;
-    margin-left: 11%;
+    margin-top: 33%;
+    margin-left: 7%;
   }
   .mt3 {
   margin-top: 20%;
   margin-left: 3%;}
-  .btn1{margin-top: 4%;}
-  .btn2{margin-top: 9%;}
-  .btn3{margin-top: 14%;}
-  .btn4{margin-top: 19%;}
-  .btn5{margin-top: 24%;}
+  .btn1{margin-top: 20%;}
+  .btn2{margin-top: 15%;}
+  .btn3{margin-top: 10%;}
+  .btn4{margin-top: 6%;}
+  .btn5{margin-top: 2%;}
   .painel3{
     margin-top: 46%;}
     .mt1 {
       margin-top: 8%;
       margin-left: -2px;
   }
-
   .mt2 {
-    margin-top: 5px;
-    margin-left: -13px;
+    margin-top: 16px;
+    margin-left: 0px;
 }
-
 .mt3 {
-  margin-top: 21%;
-  margin-left: 4%;
+  margin-top: 16%;
+  margin-left: 1%;
+}
 }
 
-.caixaInfografico2 {
-  width: 28%;
-}
-
-.caixaInfografico {
-  width: 28%;
-}
-
-
-
-
-
-
-
-
-
-}
 
 @media screen and (min-width:1000px) and (max-width:2300px) {
   .mobile2{display: none;}

@@ -121,6 +121,7 @@ left: 23%;}
     background-size: cover;
     position: relative;
     overflow-x: hidden;
+    background-attachment: fixed;
 }
 .menu {
     position: absolute;
@@ -213,38 +214,7 @@ left: 23%;}
 }
 
 
-@media (max-width: 900px) {
-.menu {
-    width: 100%;
-    display: grid;
-}
-.menu a {
-    width: 382px;
-    height: 200px;
-}
-}
 
-@media (max-width: 500px) {
-.modal-video {
-    width: 95%;
-    margin: 5px;
-    background-image: unset;
-    background-color: #007981;
-    height: auto;
-    padding: 15px;
-}
-
-.btn-video {
-    top: 830px;
-    background-image: unset;
-    background-color: #007981;
-    height: auto;
-    padding: 15px 25px;
-    box-shadow: 3px 3px 6px #333;
-    border-radius: 5px;
-    text-align: center;
-}
-}
 
 
 @media screen and (max-width:480px){
@@ -275,82 +245,111 @@ left: 23%;}
 }
 
 
-@media screen and (max-width:1030px){
-.modal-dialog .modal-content{
-    background-size: 30%;
-    background-position: center;
-    background: unset;
-    max-width: 100%;
-    padding: 50px;
-    background: #007981;
+@media (max-width: 900px) {
+    .menu {
+        width: 100%;
+        display: grid;
+    }
+    .menu a {
+        width: 382px;
+        height: 200px;
+    }
 }
-.btVideo {margin-left: 40px;}
-.imgCentro {
-    margin-top: 14%;
-    left: 7%;
-    width: 80%;
-}
-.imgTitulo {
-    width: 25%;
-    left: 3%;
-    top: 30%;
-}
-#btIniciar {
-    left: 6%;
-    top: 70%;
-}
-.imgBandeira {
-    width: 5%;
-    left: 41%;
-    top: 7%;
-}
-.imgPersonagem1 {
-    width: 12%;
-    left: 67%;
-    top: 43%;}
-.imgPersonagem2 {
-    left: 80%;
-    top: 32%;
-    width: 12%;}
-
-.titulo{left: 67%;}
-.btVideo {width: 15%;}
-}
-
-
-@media screen and (max-width:780px){
-
-.btVideo {width: 25%;
-margin-left: 9px;}
-.titulo{
-    left: 33%;
-    top: 92%;
-}
-
-.imgPersonagem1 {display: none;}
-.imgPersonagem2 {display: none;}
-#btIniciar {
-    left: 36%;
-    top: 81%;
-}
-.imgTitulo {
-    left: 32%;
-    top: 45%;
-width: 35%;}
-
-.imgCentro {
-    margin-top: 17%;
-    left: 0%;
+    
+@media (max-width: 500px) {
+.modal-video {
     width: 95%;
+    margin: 5px;
+    background-image: unset;
+    background-color: #007981;
+    height: auto;
+    padding: 15px;
+}
+.btn-video {
+    top: 830px;
+    background-image: unset;
+    background-color: #007981;
+    height: auto;
+    padding: 15px 25px;
+    box-shadow: 3px 3px 6px #333;
+    border-radius: 5px;
+    text-align: center;
+}
 }
 
-.imgBandeira {
-    left: 39%;
-    top: 1%;
-    width: 8%;
-}
-}
 
+
+@media only screen and (max-width:820px){
+    .modal-dialog .modal-content{
+        background-size: 30%;
+        background-position: center;
+        background: unset;
+        max-width: 100%;
+        padding: 50px;
+        background: #007981;
+    }
+    .btVideo {margin-left: 40px;}
+    .imgCentro {
+        margin-top: 23%;
+        left: 7%;
+        width: 80%;
+        position: fixed !important;
+    }
+    .imgTitulo {
+        width: 25%;
+        left: 3%;
+        top: 30%;
+        position: fixed;
+    }
+    #btIniciar {
+        left: 35%;
+        top: 70%;
+        position: fixed;
+    }
+    .imgBandeira {
+        width: 5%;
+        left: 41%;
+        top: 10%;
+        position: fixed;
+    }
+    .imgPersonagem1 {
+        width: 12%;
+        left: 67%;
+        top: 32%;
+    position: fixed;}
+    .imgPersonagem2 {
+        left: 80%;
+        top: 26%;
+        width: 12%;
+    position: fixed;}
+    
+    .titulo{left: 33%;
+    top:85%;
+    position: fixed;}
+    .btVideo {width: 15%;
+    top:2%}
+    #logo {top:2%}
+}
+    
+@media only screen and (min-width:821px) and (max-width:1401px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
 
 @media screen and (min-width:2400px) {
 .imgPersonagem1 {
@@ -362,3 +361,13 @@ width: 35%;}
 }
 
 
+@media only screen and (min-width:1500px) and (max-width:2000px){
+#btIniciar {
+    left: 21%;
+    top: 64%;
+}
+.imgBandeira {
+    left: 47%;
+    top: 4%;
+}
+}
