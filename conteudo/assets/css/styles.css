@@ -204,6 +204,7 @@ padding-left: 100px;
 
 .container{
   background: url('../../../conteudo/assets/img/background.png') no-repeat;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -907,21 +908,33 @@ figcaption {
 
 
 
+  @media only screen and (min-width:821px) and (max-width:1450px){
+    .caixaInfografico2{width: 22%;} 
+    .caixaInfografico{width: 23%;} 
+    .etapaY{margin-top: 14%;}
+    .etapaZ{
+      margin-top: 31%;
+      margin-left: 7%;
+    }
+    .mt3 {
+    margin-top: 15%;
+    margin-left: 3%;}
+    .mt1 {
+      margin-top: 8%;
+      margin-left: -12px;
+  }
+  .mt2 {
+    margin-top: 16px;
+    margin-left: 6px;
+  }
+  .pagina1{
+    background-size: 15%,15%,15%, auto;
+  }
+
+  }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 @media (max-width: 1080px) {
   video {
     max-width: 100%;
@@ -936,6 +949,160 @@ figcaption {
 
 }
 
+@media screen and (min-width:1000px) and (max-width:2300px) {
+  .mobile2{display: none;}
+}
+
+
+@media screen and (max-width:998px){
+  .desktop2{display: none;} 
+}
+
+@media screen and (max-width:1030px){
+.pagina1, .pagina2, .pagina3, .pagina4 {background: url('../../../conteudo/assets/img/background.png') no-repeat;
+background-attachment: fixed;}
+.bloco3, .bloco4 {background: unset;}
+
+}
+
+@media screen and (max-width: 820px) {
+  .icone.pergunta::before {
+    left:-55px;
+  }
+  .icone.saiba-mais::before {
+    left:-55px;
+  }
+  .icone.praticar::before {
+    left:-55px;
+  }
+  .icone.importante::before {
+    left:-55px;
+  }
+  .icone.refletir::before {
+    left:-55px;
+  }
+  .paragImportante p {
+    padding-left: 20px;
+  }
+  .caixa.icone {padding-left: 65px;}
+  .caixa.icone.praticar {padding-left:15px;
+    padding-top: 100px;
+  }
+  
+  .caixa.icone.praticar.espaco {padding-left:60px;
+    padding-top: 70px;
+  }
+  .paragImportante2.caixa.icone {
+    padding-left: 82px;
+  }
+  .btn1{margin-top: 27%;
+    margin-left: -125px;}
+  .btn2{margin-top: 21%;
+    margin-left: -173px;}
+  .btn3{margin-top: 15%;
+    margin-left: -213px;}
+  .btn4{margin-top: 9%;
+    margin-left: -258px;}
+  .btn5{margin-top: 2%;
+  margin-left: -297px;}
+  .imgPainel2{width: 60%;}
+  .painel3{
+    margin-top: 56% !important;
+    width: 80%;
+  }
+  .icone.atencao::before {
+    left:-60px;
+  }
+  .icone.forum::before {
+    left:-60px;
+  }
+  .podcast-container{
+      transform: scale(0.9);
+      margin-left: -40px;
+  }
+  }
+
+
+@media (max-width: 770px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infografico {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .cards-container img {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  video {
+    height: 240px;
+    max-width: 100%;
+  }
+  figure img {
+    max-width: 100%;
+  }
+
+  .carousel {
+    display: none;
+  }
+  .mobile-carousel {
+    display: block;
+  }
+
+  .mobile-carousel img {
+    margin-bottom: 1em;
+  }
+
+  figure .img-fluid {
+    max-width: 100%;
+  }
+
+  .ilustra {
+    float: unset;
+    display: block;
+    margin: 1em auto;
+  }
+
+  iframe {
+    width: 100%;
+    height: 320px;
+  }
+  .podcast-container {
+    transform: scale(1);
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.sesc-audio-player {
+  text-align: center;
+  margin: 60px 0;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .podcast-container {
+    transform: scale(1);
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.texto-podcast {
+  width: 100%;
+  margin-bottom: 0px;
+}
+}
 
 @media screen and (max-width: 428px){
   .pensamento{
@@ -986,216 +1153,16 @@ figcaption {
  .marTop3 {
   padding-top: 124px;
 }
+.sesc-audio-player {
+  margin: 20px 0px;
 }
-
-
+}
 
 @media screen and (min-width: 430px) {
-/*.mobile1{display: none;}*/
-.mobile3{display: none;}
-.mobile4{display: none;}
-}
-
-
-
-@media screen and (max-width: 600px) {
-  .podcast-container {
-    transform: scale(1);
-    margin-left: 0px;
-    margin-top: 50px;
-    width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center top;
-}
-.texto-podcast {
-  width: 100%;
-  margin-bottom: 0px;
-}
-}
-
-@media (max-width: 720px) {
-  .cards-container {
-    flex-direction: column;
-    align-items: center;
+  /*.mobile1{display: none;}*/
+  .mobile3{display: none;}
+  .mobile4{display: none;}
   }
-
-  .infografico {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-
-  .cards-container img {
-    width: 100%;
-    margin-bottom: 1em;
-  }
-
-  video {
-    height: 240px;
-    max-width: 100%;
-  }
-  figure img {
-    max-width: 100%;
-  }
-
-  .carousel {
-    display: none;
-  }
-  .mobile-carousel {
-    display: block;
-  }
-
-  .mobile-carousel img {
-    margin-bottom: 1em;
-  }
-
-  figure .img-fluid {
-    max-width: 100%;
-  }
-
-  .ilustra {
-    float: unset;
-    display: block;
-    margin: 1em auto;
-  }
-
-  iframe {
-    width: 100%;
-    height: 320px;
-  }
-}
-
-
-@media screen and (max-width: 820px) {
-.icone.pergunta::before {
-  left:-55px;
-}
-.icone.saiba-mais::before {
-  left:-55px;
-}
-.icone.praticar::before {
-  left:-55px;
-}
-.icone.importante::before {
-  left:-55px;
-}
-.icone.refletir::before {
-  left:-55px;
-}
-.paragImportante p {
-  padding-left: 20px;
-}
-.caixa.icone {padding-left: 65px;}
-.caixa.icone.praticar {padding-left:15px;
-  padding-top: 100px;
-}
-
-.caixa.icone.praticar.espaco {padding-left:60px;
-  padding-top: 70px;
-}
-.paragImportante2.caixa.icone {
-  padding-left: 82px;
-}
-.btn1{margin-top: 27%;
-  margin-left: -125px;}
-.btn2{margin-top: 21%;
-  margin-left: -173px;}
-.btn3{margin-top: 15%;
-  margin-left: -213px;}
-.btn4{margin-top: 9%;
-  margin-left: -258px;}
-.btn5{margin-top: 2%;
-margin-left: -297px;}
-.imgPainel2{width: 60%;}
-.painel3{
-  margin-top: 56% !important;
-  width: 80%;
-}
-.icone.atencao::before {
-  left:-60px;
-}
-.icone.forum::before {
-  left:-60px;
-}
-.podcast-container{
-    transform: scale(0.9);
-    margin-left: -40px;
-}
-}
-
-@media screen and (min-width:1000px) and (max-width:2300px) {
-  .mobile2{display: none;}
-}
-
-
-@media screen and (max-width:998px){
-  .desktop2{display: none;} 
-}
-
-@media screen and (max-width:1030px){
-.pagina1, .pagina2, .pagina3, .pagina4 {background: url('../../../conteudo/assets/img/background.png') no-repeat;
-background-attachment: fixed;}
-.bloco3, .bloco4 {background: unset;}
-
-}
-
-@media only screen and (min-width:821px) and (max-width:1450px){
-  .caixaInfografico2{width: 22%;} 
-  .caixaInfografico{width: 23%;} 
-  .etapaY{margin-top: 14%;}
-  .etapaZ{
-    margin-top: 31%;
-    margin-left: 7%;
-  }
-  .mt3 {
-  margin-top: 15%;
-  margin-left: 3%;}
-  .mt1 {
-    margin-top: 8%;
-    margin-left: -12px;
-}
-.mt2 {
-  margin-top: 16px;
-  margin-left: 6px;
-}
-
-}
-
-@media screen and (min-width:1020px) and (max-width:1399px) {
-  .caixaInfografico2{width: 22%;} 
-  .caixaInfografico{width: 23%;} 
-  .etapaY{margin-top: 14%;}
-  .etapaZ{
-    margin-top: 33%;
-    margin-left: 7%;
-  }
-  .mt3 {
-  margin-top: 20%;
-  margin-left: 3%;}
-  .btn1{margin-top: 20%;}
-  .btn2{margin-top: 15%;}
-  .btn3{margin-top: 10%;}
-  .btn4{margin-top: 6%;}
-  .btn5{margin-top: 2%;}
-  .painel3{
-    margin-top: 46%;}
-    .mt1 {
-      margin-top: 8%;
-      margin-left: -2px;
-  }
-  .mt2 {
-    margin-top: 16px;
-    margin-left: 0px;
-}
-.mt3 {
-  margin-top: 16%;
-  margin-left: 1%;
-}
-}
-
-
-
-
+  
 
 

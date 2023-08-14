@@ -45,21 +45,18 @@
       <h2 class="titulo"><strong>Produtor Cultural</strong></h2>
     </div>
 
-    <div class="modal fade" id="modal-video" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-xl modal-fullscreen-md-down">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="btn-close float-end btnFechar" data-bs-dismiss="modal"
-              aria-label="Close"></button>
-            <p>Olá! Antes de começar, assista ao vídeo introdutório sobre o módulo a seguir:</p>
-            <iframe src="https://www.youtube.com/embed/" class="ratio ratio-4x3" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-        </div>
+    <div class="backdrop" aria-hidden="true">
+      <div class="modal-intro">
+        <p>Olá! Antes de começar, assista ao vídeo introdutório sobre o módulo a seguir.</p>
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="ytb embed-responsive-item" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
-    </div>
+        
+        <div class="footer">
+              <button class="botao-fechar">Fechar</button>
+          </div>
+      </div>
+  </div>
 
     <!-- <div class="menu">
             <a id="link-1" class="animate__animated animate__backInRight" href="conteudo/index.html?page=1"></a>
@@ -76,7 +73,7 @@
   <!--Jquery-->
   <script src="assets/js/jquery-3.6.0.min.js"></script>
   <script src="assets/js/geral.js"></script>
-  <script src="assets/js/tela_inicial.js"></script>
+  <script src="assets/js/tela_inicial_.js"></script>
 
   <!-- Versao atual do handtalk -->
   <script>
