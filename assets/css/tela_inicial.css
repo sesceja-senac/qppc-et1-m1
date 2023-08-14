@@ -369,7 +369,7 @@ left: 23%;}
 }
 
 
-@media only screen and (min-width:1500px) and (max-width:2000px){
+@media only screen and (min-width:1500px) and (max-width:2399px){
 #btIniciar {
     left: 21%;
     top: 68%;
