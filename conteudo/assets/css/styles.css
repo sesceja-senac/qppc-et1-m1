@@ -227,7 +227,6 @@ padding-left: 100px;
 background-attachment: fixed;
 }
 
-
 .pagina4{
   background:url('../../../conteudo/assets/img/lateral_direita2.png') no-repeat right top, url('../../../conteudo/assets/img/lateral_esquerda2.png') no-repeat left top, url('../../../conteudo/assets/img/centro.png') no-repeat center top, url('../../../conteudo/assets/img/elemento_esquerdo2.png') no-repeat left center, url('../../../conteudo/assets/img/elemento_direito2.png') no-repeat right bottom, url('../../../conteudo/assets/img/background.png') no-repeat;
   background-size: auto, auto, auto, auto, auto, cover;
