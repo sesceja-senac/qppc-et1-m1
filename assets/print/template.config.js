@@ -149,6 +149,7 @@ function pagination ()
     var li = '<li> <a href="index.html?page=' + i + '" class="btn-sesc mx-1 d-inline-block">' + i + '</a> </li>';
       $("ul.pagination").append(li);
     }
+    
     $("ul.pagination").css("display","");
   }else {
     $("ul.pagination").css("display","none !important");
@@ -201,7 +202,6 @@ function checkURI( i )
 
       return resp[1];
 }
-
 
 
 function getIndexFile(){

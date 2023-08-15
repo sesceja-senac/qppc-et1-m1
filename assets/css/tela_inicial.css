@@ -19,37 +19,6 @@
     src: url('../../assets/font/Poppins/Poppins-Regular.ttf');
   }
 
-.btVideo{
-    background: url('../../assets/img/Video_apresentacao_pq_layout.png') no-repeat;
-    width: 236px;
-    height: 226px;
-    position: absolute;
-    border: none;
-    background-size: 90%;
-    display: block;
-    margin-left: 35px;
-    margin-top: 40px;
-    transition: all 0.2s;
-}
-.btVideo:hover {
-    transform: scale(1.1);
-}
-.modal-dialog .modal-content{
-    background: url('../../assets/img/video_bg.png') no-repeat center;
-    width: 1133px;
-    height: 708px;
-    border: none;
-    padding: 100px 200px;
-    background-size: 85%;
-    position:relative;
-    z-index: 9999;
-}
-.modal-dialog .modal-content p{
-    color: #fff;
-    clear: both;
-    margin-bottom: 20px;
-    padding: 15px;
-}
 
 .btnFechar{
     color: #fff;
@@ -140,8 +109,8 @@ left: 23%;}
 
 /*-------------- Modal vídeo intro --------------*/
 .imgVideo {
-    margin-left: -200px;
-    margin-top: 60px;
+    margin-left: 35px;
+    margin-top: 40px;
     position: absolute;
     background: url('../../assets/img/Video_apresentacao_pq_layout.png') no-repeat;
     background-size: 100%;
