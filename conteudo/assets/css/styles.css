@@ -32,12 +32,12 @@ figcaption {
   border-bottom: 1px dashed #000;
   padding-bottom: 2px; 
 }
-video {
+
+iframe {
+  width: 580px;
   height: 360px;
-  width: 720px;
-  background-color: black;
+  margin: 10px auto;
   display: block;
-  margin: 1.5em auto;
 }
 
 .icone-titulo {
@@ -235,7 +235,7 @@ background-attachment: fixed;
 }
 
 .pagina5{
-  background: url('../../../conteudo/assets/img/background_inserir_fundo_branco.png') no-repeat;
+  background: url('../../../conteudo/assets/img/bg_ref.png') no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -548,7 +548,7 @@ figcaption {
 }
 
 .bgColorido{
-  background-color:#10b7d5;
+  background-color:#90c3cc;
   padding: 2px 5px;
   border-radius: 4px;
 }
