@@ -376,8 +376,8 @@ margin-left:1%;
   height: 50px;
   background-size: 100%;
   position: absolute;
-  margin-top: 13%;
-  margin-left: -175px;
+  margin-top: 9.3%;
+  margin-left: -27%;
 }
 
 .btn1:hover{
@@ -391,8 +391,8 @@ margin-left:1%;
   height: 50px;
   background-size: 100%;
   position: absolute;
-  margin-top: 10%;
-  margin-left: -218px;
+  margin-top: 6.5%;
+  margin-left: -25%;
 }
 
 .btn2:hover{
@@ -406,8 +406,8 @@ margin-left:1%;
   height: 50px;
   background-size: 100%;
   position: absolute;
-  margin-top: 7%;
-  margin-left: -265px;
+  margin-top: 4%;
+  margin-left: -23%;
 }
 
 .btn3:hover{
@@ -421,8 +421,8 @@ margin-left:1%;
   height: 50px;
   background-size: 100%;
   position: absolute;
-  margin-top: 4%;
-  margin-left: -307px;
+  margin-top: 1.5%;
+  margin-left: -21%;
 }
 
 
@@ -437,8 +437,8 @@ margin-left:1%;
   height: 50px;
   background-size: 100%;
   position: absolute;
-  margin-top: 1%;
-  margin-left: -351px;
+  margin-top: -1%;
+  margin-left: -19%;
 }
 
 .btn5:hover{
@@ -900,7 +900,19 @@ figcaption {
       margin-left: -338px;
   }
   }
-
+  @media screen and (max-width:1440px){
+    .btn1{margin-top: 15%;
+      margin-left: -37%;}
+    .btn2{margin-top: 11%;
+      margin-left: -34%;}
+    .btn3{margin-top: 7%;
+      margin-left: -31%;}
+    .btn4{margin-top: 3%;
+      margin-left: -28%;}
+    .btn5{margin-top: -0.5%;
+    margin-left: -25%;}
+    .imgPainel2{width: 80%;}
+  }
 
   @media only screen and (min-width:821px) and (max-width:1450px){
     .caixaInfografico2{width: 22%;} 
@@ -986,17 +998,17 @@ background-attachment: fixed;}
   .paragImportante2.caixa.icone {
     padding-left: 82px;
   }
-  .btn1{margin-top: 27%;
-    margin-left: -125px;}
-  .btn2{margin-top: 21%;
-    margin-left: -173px;}
-  .btn3{margin-top: 15%;
-    margin-left: -213px;}
-  .btn4{margin-top: 9%;
-    margin-left: -258px;}
-  .btn5{margin-top: 2%;
-  margin-left: -297px;}
-  .imgPainel2{width: 60%;}
+  .btn1{margin-top: 23%;
+    margin-left: -57%;}
+  .btn2{margin-top: 17%;
+    margin-left: -52%;}
+  .btn3{margin-top: 10%;
+    margin-left: -47%;}
+  .btn4{margin-top: 4%;
+    margin-left: -42%;}
+  .btn5{margin-top: -2%;
+  margin-left: -36%;}
+  .imgPainel2{width: 80%;}
   .painel3{
     margin-top: 56% !important;
     width: 80%;
@@ -1104,8 +1116,8 @@ background-attachment: fixed;}
   width: 100%;}
 
   /*.desktop1{display: none;}*/
-  .desktop3{display: none;}
   .desktop4{display: none;}
+  .desktop5{display: none;}
 
   .icone.pergunta::before {
     left:-55px;
@@ -1150,12 +1162,35 @@ background-attachment: fixed;}
 .sesc-audio-player {
   margin: 20px 0px;
 }
+  .btn1{margin-top: 32%;
+    margin-left: -60%;
+  width: 8%;}
+  .btn2{margin-top: 25%;
+    margin-left: -54%;
+    width: 8%;}
+  .btn3{margin-top: 17%;
+    margin-left: -49%;
+    width: 8%;}
+  .btn4{margin-top: 9.5%;
+    margin-left: -43%;
+    width: 8%;}
+  .btn5{margin-top: 2%;
+  margin-left: -37%;
+  width: 8%;}
+  .imgPainel2{width: 130%;
+  margin-top: 10%;
+  margin-bottom: 10%;}
 }
+
+
+
+
+
 
 @media screen and (min-width: 430px) {
   /*.mobile1{display: none;}*/
-  .mobile3{display: none;}
   .mobile4{display: none;}
+  .mobile5{display:none;}
   }
   
 
