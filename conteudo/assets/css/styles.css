@@ -91,7 +91,19 @@ figure .img-fluid {
 }
 
 .pensamento2{padding-left:155px;}
-
+.bt-tour{
+  background: url('../img/bt_pc_tourvirtual.png') no-repeat;
+  width: 350px;
+  height: 350px;
+  transition: all .6s;
+}
+.bt-tour:hover, .bt-memoria:hover{transform: scale(1.1);}
+.bt-memoria{
+  background: url('../img/bt_pc_memoria.png') no-repeat;
+  width: 350px;
+  height: 350px;
+  transition: all .6s;
+}
 .texto-podcast{
   position: relative;
   width: 460px;
@@ -221,6 +233,7 @@ padding-left: 100px;
   background:url('../../../conteudo/assets/img/elemento_canto_4.png') no-repeat right bottom, url('../../../conteudo/assets/img/background.png') no-repeat;
   background-size: 10%, auto;
   background-attachment:scroll, fixed;
+  padding-bottom: 80px;
 }
 .pagina3{
   background: url('../../../conteudo/assets/img/background.png') no-repeat;
