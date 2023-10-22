@@ -285,10 +285,8 @@ footer.container {
   margin-top: 40px;
   margin-bottom: 30px;
   color: #ff9200;
-  border-style:solid;
-  border-width: 2.5px;
   width:20%;
-  border-radius: 10px;
+  border: 2px solid;
   z-index: 5;
   background-color: #fff;
 }
@@ -297,27 +295,32 @@ footer.container {
   color: #000;
   margin-bottom: unset;
 }
-
+.desktop2{
+  position: relative;
+}
 .imgPainel{
   position: relative;
   z-index: 4;
   margin-top: 5%;
-  width: 40%;
+  width: 100%;
 }
 
 .mt1{
-margin-top: 33%;
-margin-left: 12.8%;
+  top: 5px;
+  left: 4px;
+  width: 264px;
 }
 
 .mt2{
-margin-top:21%;
-margin-left: -3.2%;
+  top: 40px;
+  left: 304px;
+  width: 419px;
 }
 
 .mt3{
-margin-top:6%;
-margin-left:-19.2%;
+  right: 31px;
+  bottom: 121px;
+  width: 255px;
 }
 
 .btn1{
@@ -836,7 +839,7 @@ figcaption {
       margin-top: 0%;
       margin-left: -13.5%
   }
-
+/* 
   .mt1 {
     margin-top: 25%;
     margin-left: 9.5%;
@@ -849,7 +852,7 @@ figcaption {
     margin-top: 5%;
     margin-left: -14.5%;
   }
-  .caixaInfografico {width: 18%;}
+  .caixaInfografico {width: 18%;} */
 
   }
 
@@ -867,7 +870,7 @@ figcaption {
     margin-left: -25%;}
     .imgPainel2{width: 80%;}
 
-    .caixaInfografico {width: 27%;}
+    /* .caixaInfografico {width: 27%;}
     .mt1 {
       margin-top: 38%;
       margin-left: 15%;
@@ -879,37 +882,14 @@ figcaption {
     .mt3 {
       margin-top: 8%;
       margin-left: -28%;
-    }
-    .imgPainel {
+    } */
+    /* .imgPainel {
       position: relative;
       z-index: 4;
       margin-top: 5%;
       width: 35%;
+  } */
   }
-  }
-
-  @media (max-width: 1380px) {
-    .caixaInfografico {width: 27%;}
-    .mt1 {
-      margin-top: 36%;
-      margin-left: 15%;
-    }
-    .mt2 {
-      margin-top: 24%;
-      margin-left: -7.5%;
-    }
-    .mt3 {
-      margin-top: 8%;
-      margin-left: -30%;
-    }
-    .imgPainel {
-      position: relative;
-      z-index: 4;
-      margin-top: 5%;
-      width: 33%;
-  }
-  }
-
 
 
 @media (max-width: 1080px) {
@@ -937,28 +917,10 @@ figcaption {
   .btn5{margin-top: 0%;
   margin-left: -35%;}
   .imgPainel2{width: 80%;} 
-
-  .caixaInfografico {width: 36%;}
-  .mt1 {
-    margin-top: 52%;
-    margin-left: 21%;
+  .caixaInfografico{
+    position: unset;
+    width:95%;
   }
-  .mt2 {
-    margin-top: 34%;
-    margin-left: -9%;
-  }
-  .mt3 {
-    margin-top: 11%;
-    margin-left: -38.5%;
-  }
-
-  .imgPainel {
-    position: relative;
-    z-index: 4;
-    margin-top: 5%;
-    width: 35%;
-}
-
 }
 
 
@@ -1029,19 +991,6 @@ background-attachment: fixed;}
   .pensamento{
     margin-left: -100px;
   }
-  .caixaInfografico {width: 52%;}
-  .mt1 {
-    margin-top: 56%;
-    margin-left: 22.8%;
-}
-.mt2 {
-  margin-top: 36%;
-  margin-left: -9.8%;
-}
-.mt3 {
-  margin-top: 12%;
-  margin-left: -42.3%;
-}
 
   }
 
@@ -1198,31 +1147,15 @@ background-attachment: fixed;}
   margin-top: 10%;
   margin-bottom: 10%;}
 
-  .caixaInfografico {
+  /* .caixaInfografico {
     width: 65%;
-  }
+  } */
   .caixaInfografico p{
     color: #000;
     margin-bottom: unset;
     font-size: 10pt;
   }
-  .mt3 {
-    margin-top: 13%;
-    margin-left: -38%;
-  }
 
-  .mt2 {
-    margin-top: 57%;
-    margin-left: -6%;
-  }
-  .mt1 {
-    margin-top: 91%;
-    margin-left: 25.8%;
-  }
-
-  .imgPainel{margin-top: 41%;
-  margin-bottom: 25%;
-  width: 41%;}
   }
 
 
@@ -1235,24 +1168,6 @@ background-attachment: fixed;}
   margin-bottom: unset;
   font-size: 10pt;
 }
-.mt3 {
-  margin-top: 3%;
-  margin-left: -38%;
-}
-
-.mt2 {
-  margin-top: 57%;
-  margin-left: -6%;
-}
-.mt1 {
-  margin-top: 99%;
-  margin-left: 25.8%;
-}
-
-.imgPainel{margin-top: 41%;
-margin-bottom: 50%;
-width: 41%;}
-
 
 }
 
