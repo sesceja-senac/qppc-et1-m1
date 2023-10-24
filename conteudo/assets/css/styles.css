@@ -284,16 +284,15 @@ footer.container {
   margin-left: 10px;
   margin-top: 40px;
   margin-bottom: 30px;
-  color: #ff9200;
-  width:20%;
-  border: 2px solid;
+  width: 283px;
+  height: 266px;
   z-index: 5;
-  background-color: #fff;
 }
 
 .caixaInfografico p{
   color: #000;
   margin-bottom: unset;
+  font-size: 15px;
 }
 .desktop2{
   position: relative;
@@ -306,21 +305,16 @@ footer.container {
 }
 
 .mt1{
-  top: 5px;
+  top: 282px;
   left: 4px;
-  width: 264px;
 }
-
 .mt2{
-  top: 40px;
+  top: 150px;
   left: 304px;
-  width: 419px;
 }
-
 .mt3{
-  right: 31px;
-  bottom: 121px;
-  width: 255px;
+  top: 40px;
+  right: 12px;
 }
 
 .btn1{
@@ -920,6 +914,8 @@ figcaption {
   .caixaInfografico{
     position: unset;
     width:95%;
+    height: auto;
+    border: #ff9200 solid 2px;
   }
 }
 
